@@ -1,0 +1,42 @@
+{
+  "name": "clankers-theme",
+  "displayName": "Clanker's theme",
+  "description": "A collection of three distinct dark themes: Midnight Desert, Quantum Slate, and Red Velvet.",
+  "version": "1.0.0",
+  "publisher": "oussemamsadak",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oussemamsadak/clankers-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "files": [
+    "README.md",
+    "themes/**/*.json",
+    "images/**"
+  ],
+  "icon": "images/clanker.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Midnight Desert",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-desert-color-theme.json"
+      },
+      {
+        "label": "Quantum Slate",
+        "uiTheme": "vs-dark",
+        "path": "./themes/quantum-slate-color-theme.json"
+      },
+      {
+        "label": "Red Velvet",
+        "uiTheme": "vs-dark",
+        "path": "./themes/red-velvet-color-theme.json"
+      }
+    ]
+  }
+}
